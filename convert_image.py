@@ -28,3 +28,6 @@ if __name__ == "__main__":
         print('in', len(data), data[:10])
         for fmt in ('gif', 'png', 'jpeg'):
             out_data = convert_image(data, fmt)
+            print('out', len(out_data), out_data[:10])
+
+
